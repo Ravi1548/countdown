@@ -1,5 +1,5 @@
 
-var newYears = '01-01-2023';
+var newYears = '01-01-2024';
 const btn = document.getElementById('button');
 
 btn.addEventListener('click',function countdown(){
@@ -23,7 +23,7 @@ setInterval(countdown,1000);
 if (days==0 && hours ==0  && minutes == 0 && seconds == 0){
     var popeup = document.getElementById('big-text');
     var clr = document.getElementsByTagName('span');
-    popeup.innerHTML = 'HAPPY NEW YEAR 2023';
+    popeup.innerHTML = 'HAPPY NEW YEAR 2024';
     clr.innerHTML = '';
     
 }
